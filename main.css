@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+body{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    width: 100dvw;
+    height: 100dvh;
+    background-color: #04151f;
+}
+
+@font-face {
+    font-family: 'cursedTimerFont';
+    src: url('Font style\CursedTimerUlil-Aznm.ttf') format('truetype');
+}
+
+.container{
+    background-color: #001d3d;
+    height: auto;
+    padding: 20px 30px;
+    border-radius: 12px;
+    color: #fff;
+    text-transform:uppercase;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    gap: 5em;
+    flex-wrap: wrap;
+    margin-inline: 2em;
+}
+
+.numberContainer{
+    background-color: #000;
+    padding-block:3em;
+    font-family: 'cursedTimerFont', monospace;
+    border-radius: 8px;
+}
+
+.numberContainer h1{
+    color: #e96264;
+}
+
+.buttonContainer{
+    display: flex;
+    gap: 30px;
+    margin-block:1em;
+}
+
+.container button{
+    background:none;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 12px;
+    color: white;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+button:hover{
+    color: black;
+    background-color: white;
+}
+
